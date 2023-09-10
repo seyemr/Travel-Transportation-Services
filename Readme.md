@@ -1,6 +1,8 @@
 # Ulaşım Projesi
 
-Bu proje, Ulaşım hizmetlerini tanıttığı, gezilecek yerlerin ve hizmetlerin listelendiği, ödeme ve online dolum seçenekleri sunan bir web uygulamasını içerir.
+<img src="/gif/gif.gif">
+
+Bu proje, Ulaşım hizmetlerinin sunulduğu ve tanıtıldığı, gezilecek yerlerin ve hizmetlerin listelendiği, ödeme ve online dolum seçenekleri sunan bir web uygulamasını içerir.
 
 ## Özellikler
 
@@ -18,9 +20,7 @@ Bu projeyi benzersiz kılan özellikler şunlardır:
 Bu projeyi geliştirmek için aşağıdaki teknolojiler kullanıldı:
 
 - **HTML**: Proje temelinde HTML5 kullanıldı.
-
 - **CSS**: Proje stil ve düzen için CSS3 kullanır. 
-
 - **Font Awesome**: Font Awesome, projede kullanılan ikonları sağlar.
 
 ## Kurulum
