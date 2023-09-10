@@ -42,5 +42,3 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi i
 
 Projenin sahibi: SEYDİ EMRE
 
----
-© [Proje Sahibi Adı]
