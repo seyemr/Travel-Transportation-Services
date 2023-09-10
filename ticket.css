@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding:;
+    box-sizing: border-box;
+    background-image: url(/images/blue-ticket.png);
+    background-size:contain ;
+    background-repeat:repeat;
+}
+
+
+.ticket{
+    /* border: 1px solid red; */
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 30px;
+}
+
+.ticket-type{
+    /* border: 1px solid red; */
+    display :grid;
+    
+}
+
+button{
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    /* text-align: center; */
+    /* padding: 40px; */
+   
+}
+
+button:hover{
+    transform:scale(1.09);
+    transition: 0.4s;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-1{
+    background-color: rgb(2, 19, 34);
+    color: white;
+    padding: 38px;
+    text-align: center;
+}
+.text-2{
+    background-color: rgb(226, 15, 0);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}

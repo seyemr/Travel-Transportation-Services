@@ -1,0 +1,238 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+    background-image: url('/images/Credit-cards.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+header {
+    background: #478b86;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin-left: 300px;
+}
+
+.transport {
+    display: flex;
+    align-items: center;
+}
+
+.transport a i {
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.transport i:hover {
+    transform: scale(1.4);
+}
+
+.transport button {
+    background: #f8f8f8;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.transport button:hover {
+    background-color: #ffee00;
+    transform: scale(.9);
+}
+
+.transport button a {
+    color: #2400f0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Açılır menü düzenlemeleri */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #478b86;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.dropbtn:hover {
+    background-color: #35776b;
+    /* Üzerine gelindiğinde farklı bir arka plan rengi */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px 14px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    max-width: 600px;
+    height: 400px;
+    background: linear-gradient(rgb(3, 241, 221),yellow);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row h2 {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.row1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row1 input {
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.row2 {
+    font-size: 16px;
+    font-weight: bold;
+    /* word-spacing: 12px; */
+}
+
+.row2 span {
+    margin: 0;
+    padding: 12px;
+}
+
+.row2 input {
+
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.row3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.row3 input {
+    width: 60px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 31px;
+    border: none;
+}
+
+.money {
+    margin-top: 30px;
+    margin-left: 7%;
+    background-color:red;
+    color: #fff;
+    border: none;
+    padding: 14px 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.money:hover {
+    background-color: #0e0d0b;
+    color: #ffee04;
+    font-weight: bold;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 6%;
+    padding: px 0;
+    background-color: #018f94;
+    color: #fff;
+}
+
+.footer-text {
+    /* border: 1px solid red; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: pointer;
+}

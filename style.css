@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins"sans-serif;
+    background-color: rgb(248, 248, 248);
+    /* overflow: hidden; */
+}
+
+
+
+/* Header düzenlemeleri */
+header {
+    background: #478b86;
+    color: #fff;
+    padding: 10px;
+    /* Daha belirgin bir görünüm için padding artırıldı */
+    display: flex;
+    justify-content: space-between;
+    /* İçerikleri yatay olarak dağıt */
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Hafif bir gölge eklendi */
+}
+
+.logo a {
+    font-size: 40px;
+    /* border: 1px solid red; */
+    color: #fff;
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+
+.transport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ulaşım ikonları düzenlemeleri */
+.transport a i {
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.transport i:hover {
+    transform: scale(1.1);
+}
+
+.transport button {
+    background: #f8f8f8;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.transport button:hover {
+    background-color: #ffee00;
+    transform: scale(.9);
+}
+
+.transport button a {
+    color: #2400f0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Açılır menü düzenlemeleri */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #478b86;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.dropbtn:hover {
+    background-color: #35776b;
+    /* Üzerine gelindiğinde farklı bir arka plan rengi */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Temel stiller */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 span {
+    font-size: 36px;
+    color: #0349ca;
+    box-shadow: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.colum {
+    flex: 0 0 calc(33.333% - 20px);
+    /* İçeriği eşit olarak üç sütuna böl, boşlukları ayarla */
+    margin: 10px;
+    padding: 15px;
+    background-color: #20d1c8;
+    text-align: center;
+    border: 1px solid #ccc;
+
+}
+
+.colum:hover {
+    transform: scale(1.1);
+    background: yellow;
+}
+
+.colum i {
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #2400f0;
+
+}
+
+.colum i:hover {
+    transform: scale(1.5);
+}
+
+.fs-5 {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.fs-5 a {
+    text-decoration: none;
+    color: #2400f0;
+}
+
+
+.text {
+    background-color: #ebebeb;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+footer {
+    /* border: 1px solid red; */
+    text-align: center;
+    position:fixed;
+    /* /* bottom: 0; */
+    width: 100%; */
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer img {
+    /* border: 1px solid red; */
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-text {
+    /* border: 1px solid red; */
+    background-color: #478b86;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: pointer;
+}

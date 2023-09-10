@@ -1,0 +1,76 @@
+/* trips div'i için stil */
+.trips {
+    background: linear-gradient(rgb(0, 148, 185), green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h3 {
+    background: linear-gradient(rgb(0, 148, 185), rgb(0, 148, 185));
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+}
+
+h3 span {
+    padding: 6px;
+    color: yellow;
+}
+
+/* ship div'leri için stil */
+.ship {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Başlık (h1) için stil */
+.ship h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Resim (img) için stil */
+.ship img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Açıklamalar (p) için stil */
+.ship p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Fiyat (p) için stil */
+.ship p:last-child {
+    font-weight: bold;
+    color: #f00;
+}
+
+/* Buton için stil */
+.ship button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Butonun üzerine gelindiğinde stil */
+.ship button:hover {
+    background-color: #0056b3;
+}

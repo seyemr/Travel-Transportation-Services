@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #2f3131;
+    overflow:hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 440px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #696565;
+    border-radius: 5px;
+    background-color: rgb(255, 208, 0);
+}
+
+.form__title {
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #06787c;
+    font-size: 40px;
+}
+
+.form__input--group {
+    /* border: 1px solid red; */
+    display: grid;
+    gap: 8px;
+}
+
+.form__input {
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    display: grid;
+    gap: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form__button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #06787c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: red;
+    transition: 0.3s;
+}
+
+.form__text {
+    padding: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form__link1,
+.form__x,
+.form__link {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #ff0000;
+    color: rgb(240, 239, 239);
+    font-weight: bold;
+    justify-content: start;
+    text-decoration: none;
+}
+
+.form__link1:hover,
+.form__x:hover,
+.form__link:hover {
+    background-color: #06787c;
+    transition: 0.3s;
+}
+
+.form__text_for_all {
+    /* border: 1px solid red; */
+    padding: 6px 20px;
+    margin-top: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .footer-text {
+    border: 1px solid red;
+    background-color: #478b86;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    cursor: pointer;
+} */
